@@ -17,6 +17,7 @@ if (isset($_POST['signIn'])) {
     } else {
         header("Location: ./login.php?status=login_failed");
     }
+    //this is a comment
 }
 ?>
 
